@@ -1,7 +1,7 @@
 def ossz_fizetes(lista):
         osszeg:int=0
         for i in range(0, len(lista), 1):
-            lista[i].fizetes += osszeg
+            osszeg += lista[i].fizetes
         return osszeg
 
 def legidosebb(lista):
